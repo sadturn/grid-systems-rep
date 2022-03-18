@@ -1,0 +1,10 @@
+список віток                        ->  git branch -a | -r
+переключення віток                  ->  git checkout <branchname>
+закомітити                          ->  git commit -m "Message"
+список змін                         ->  git diff <commitID>
+змержити вітки                      ->  git checkout <branch1>
+                                        git merge <branch2>
+список комітів                      ->  git log
+застешити зміни                     ->  
+відкинути зміни до певного коміту   ->  
+стянути і запушити зміни            ->  
