@@ -1,0 +1,14 @@
+список віток                        ->  git branch -a | -r
+переключення віток                  ->  git checkout <branchname>
+закомітити                          ->  git commit -m "Message"
+список змін                         ->  git diff <commitID>
+змержити вітки                      ->  git checkout <branch1>
+                                        git merge <branch2>
+список комітів                      ->  git log
+застешити зміни                     ->  git stash
+                                        git stash pop (to reaply the changes)
+відкинути зміни до певного коміту   ->  git reset --hard <SHAsum of your commit>
+стянути і запушити зміни            ->  git pull origin <branchname>
+                                        git push -u origin <branchname>
+                                        git fetch ＜remote＞ followed by
+                                        git merge origin/＜current-branch＞
